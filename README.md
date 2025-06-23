@@ -1,1 +1,0 @@
-# -a-deep-learning-odyssey-in-rice-type-classification-through-transfer-learning-
