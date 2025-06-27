@@ -1,8 +1,0 @@
-def combine_histories(h1, h2):
-    history = {}
-    for key in h1.history:
-        history[key] = h1.history[key] + h2.history[key]
-    return history
-
-combined_history = combine_histories(history, history_fine)
-plot_training_history(tf.keras.callbacks.History(history=combined_history))
